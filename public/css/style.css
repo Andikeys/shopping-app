@@ -1,0 +1,19 @@
+/* Basic styling for a clean look */
+body {
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background: linear-gradient(45deg, #ff6b6b, #f06595);
+  color: white;
+}
+
+.card {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
